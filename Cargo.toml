@@ -1,0 +1,21 @@
+[package]
+name = "mousetrap"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+authors = ["iyear <ljyngup@gmail.com>"]
+description = "Detect starting from Windows explorer in Rust"
+homepage = "https://github.com/iyear/mousetrap-rs"
+repository = "https://github.com/iyear/mousetrap-rs"
+documentation = "https://docs.rs/mousetrap"
+readme = "README.md"
+keywords = ["windows", "explorer", "mousetrap", "explore.exe", "winapi"]
+categories = ["os", "os::windows-apis", "api-bindings", "command-line-utilities"]
+
+[badges]
+maintenance = { status = "actively-developed" }
+
+[dependencies.windows-sys]
+version = "0.42.0"
+default-features = false
+features = ["Win32_System_Diagnostics_ToolHelp", "Win32_Foundation"]
