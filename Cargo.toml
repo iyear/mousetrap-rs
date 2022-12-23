@@ -9,7 +9,7 @@ homepage = "https://github.com/iyear/mousetrap-rs"
 repository = "https://github.com/iyear/mousetrap-rs"
 documentation = "https://docs.rs/mousetrap"
 readme = "README.md"
-keywords = ["windows", "explorer", "mousetrap", "explore.exe", "winapi"]
+keywords = ["windows", "explorer", "mousetrap", "windows-sys", "winapi"]
 categories = ["os", "os::windows-apis", "api-bindings", "command-line-utilities"]
 
 [badges]
