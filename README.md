@@ -1,6 +1,9 @@
 # mousetrap-rs
 
-Rust implementation of https://github.com/inconshreveable/mousetrap
+[![Crates.io](https://img.shields.io/crates/v/mousetrap?style=flat-square)](https://crates.io/crates/mousetrap)
+[![Docs.rs](https://img.shields.io/docsrs/mousetrap?style=flat-square)](https://docs.rs/mousetrap)
+
+Rust implementation of https://github.com/inconshreveable/mousetrap, which is used in ngrok.
 
 > mousetrap is a tiny library that answers a single question.
 >
@@ -33,6 +36,12 @@ fn main() {
     io::stdin().read_line(&mut s).unwrap();
 }
 ```
+
+## More
+
+This is my first contribution to the Rust community. I hope you find it useful.
+
+And I'm not familiar with Rust currently, so if you have any suggestions, feel free to open an issue or PR.
 
 ## License
 
